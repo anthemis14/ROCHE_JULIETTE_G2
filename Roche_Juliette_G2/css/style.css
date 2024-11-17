@@ -1,0 +1,240 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation {
+  display: flex;
+  margin: 0;
+}
+
+
+
+#left-nav .liens {
+  margin-left: 20px;
+}
+
+header {
+  width: 100%;
+  background-color: #800003;
+  height: 30%;
+}
+
+.vertical_text_position {
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+}
+
+.header_color {
+  color: black;
+  text-decoration: none;
+}
+
+.liens a {
+  text-decoration: none;
+}
+
+.accueil_position {
+  margin-left: 38rem;
+}
+
+.page2_position {
+  margin-left: 2rem;
+}
+
+.page3_position {
+  margin-left: 2rem;
+}
+
+.img_background_color {
+  background-color: #111010;
+  box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+}
+
+main {
+  background-color: #800003;
+}
+
+article {
+  width: 35%;
+  float: left;
+
+  margin-top: 8%;
+  margin-left: 10%;
+  margin-bottom: 15%;
+
+  color: #d90004;
+  font-size: large;
+  font-weight: bold;
+  font-family: "Gothic A1", sans-serif;
+
+  background-color: #111010;
+  border-radius: 10px;
+  padding: 2%;
+  box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+}
+
+.img_authors {
+  margin-left: 10%;
+  margin-top: 8.75%;
+  margin-bottom: 15%;
+  width: 27%;
+  box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+}
+
+.img_album {
+  margin-top: 3%;
+  margin-right: 10%;
+  margin-left: 29%;
+  margin-bottom: 5%;
+  width: 43%;
+  box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+}
+
+.stream_button {
+  border: 0;
+  line-height: 2.5;
+  padding: 0.5%;
+  font-family: "Gothic A1", sans-serif;
+  font-size: medium;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  border-radius: 20%;
+  background-color: #970003;
+  box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+  margin-right: 10%;
+  margin-left: 48%;
+  margin-bottom: 4%;
+}
+
+footer {
+  background-color: black;
+}
+
+.instagram {
+  width: 3%;
+  margin-left: 1%;
+}
+
+.tiktok {
+  width: 3%;
+}
+
+.casting_video {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 21%;
+  box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 576px) {
+
+  header {
+    width: 400%;
+    height: 70%;
+  }
+
+  .img_background_color {
+    width: 400%;
+  }
+
+  main{
+    width: 400%;
+  }
+
+  article {
+    width: 80%;
+  
+    margin-top: 8%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+  
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: "Gothic A1", sans-serif;
+  }
+
+  .img_authors {
+    margin-left: 30%;
+    margin-bottom: 15%;
+    width: 40%;
+  }
+
+  footer {
+    width: 400%;
+  }
+}
+  
+
+@media (min-width: 577px) and (max-width: 768px) {
+  iframe{
+    width: 40%;
+  }
+}
+
+
+
+
+
+
+  .gothic-a1-thin {
+    font-family: "Gothic A1", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  .gothic-a1-extralight {
+    font-family: "Gothic A1", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  .gothic-a1-light {
+    font-family: "Gothic A1", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .gothic-a1-regular {
+    font-family: "Gothic A1", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .gothic-a1-medium {
+    font-family: "Gothic A1", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .gothic-a1-semibold {
+    font-family: "Gothic A1", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .gothic-a1-bold {
+    font-family: "Gothic A1", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .gothic-a1-extrabold {
+    font-family: "Gothic A1", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  .gothic-a1-black {
+    font-family: "Gothic A1", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
